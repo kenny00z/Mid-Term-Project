@@ -8,3 +8,7 @@ https://trello.com/b/XVOjiDCj/mid-term-project-ironhacku
 Breefing del funcionamiento del MidTermProject.
 Como usar trello para gestionarse las tareas y el tiempo.
 Comienzo del proyecto; empezando por crear la repo , los archivos necesarios en vscode, y el cuerpo o mapeado de html.
+
+---22/11/20222---
+
+-Day-2-:
