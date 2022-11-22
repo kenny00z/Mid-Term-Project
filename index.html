@@ -88,7 +88,7 @@
     <section class="">
       <!-- CONTAINER -->
       <div class="projects-container">
-        <h2>Recent Projects</h2>
+        <h2 class="project-section-title">Recent Projects</h2>
         <!-- LIST WRAPPER -->
         <div class="project-box">
           <!-- ROLE LIST -->
@@ -122,21 +122,25 @@
     </section>
 
     <!-- SECTION TESTIMONIAL TENEIS QUE DAR, SECCION CON UNA FOTO DE FONDO CON VARIAS IMAGENES DISTRIBUIDAS EN ELLA SU TITULO Y DESCRIPCION EN EL CENTRO (MENCIONAR QUE TMB TIENE UN MARGIN TOP DE LA PARRA)--> 
-    <section>
+    <section class="testimonial-section">
         <div>
           <h3>Hear What Our Clients Have to Say</h3>
           <p>"Circle helped us trhough every stage of our startup. We really enjoyed working with you."</p>
-          <div>
-            <img src="./project-assets/testimonial-section/profile.png" alt="profile-img">
-            <p>Kristin Watson</p>
-            <p>Booking.com</p>
+          <div class="profile-div">
+            <div class="profile-photo">
+            </div>
+            <p class="profile-name">Kristin Watson</p>
+            <p class="profile-web">Booking.com</p>
           </div>
         </div>
-          <div><img src="./project-assets/testimonial-section/memoji-1.png" alt="memoji-1-img"></div>
-          <div><img src="./project-assets/testimonial-section/memoji-2.png" alt="memoji-2-img"></div>
-          <div><img src="./project-assets/testimonial-section/memoji-3.png" alt="memoji-3-img"></div>
-          <div><img src="./project-assets/testimonial-section/memoji-4.png" alt="memoji-4-img"></div>
-      
+          <div class="memojis-container">
+            <div><img id="memoji-1" class="memojis-imgs" src="./project-assets/testimonial-section/memoji-1.png" alt="memoji-1-img"></div>
+            <div><img id="memoji-2" class="memojis-imgs" src="./project-assets/testimonial-section/memoji-2.png" alt="memoji-2-img"></div>
+          </div>
+          <div class="memojis-container">  
+            <div><img id="memoji-3" class="memojis-imgs" src="./project-assets/testimonial-section/memoji-3.png" alt="memoji-3-img"></div>
+            <div><img id="memoji-4" class="memojis-imgs" src="./project-assets/testimonial-section/memoji-4.png" alt="memoji-4-img"></div>
+          </div>
     </section>
 
     <!-- SECTION SERVICES (COMO NO CON UN MARGIN TOP DE COJONES) CONTIENE COMO NO UN DIV DENTRO DEL DIV SOBRE DIV EN EL DIV DEL DIV (MIRAR BIEN PORQUE LA CANTIDAD DE DIVS ES INSANA) Y UTILIZA GRID EN EL CONTENEDOR QUE ENCAPSULA LOS 3 APARTADOS DEBAJO DEL TITULO , OJO ESTA USANDO ICONOS QUE NO IMAGENES Y A PIE DE ESTOS APARTADOS UN LINK-REF -->

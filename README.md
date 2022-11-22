@@ -12,3 +12,6 @@ Comienzo del proyecto; empezando por crear la repo , los archivos necesarios en 
 ---22/11/20222---
 
 -Day-2-:
+Composición HTML de la HomePage y la Contact-Us.
+Comienzo de estilos de la HomePage a través de CSS, primeras pinceladas abarcando hasta la sección 4 aún por acabar.
+Repasar en futuro los detalles para acabar de intentar asemejar lo máximo a la página replicada.

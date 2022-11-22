@@ -158,6 +158,10 @@ padding: 0px 30px;
 }
 
 
+.project-section-title{
+    font-size: 40px;
+    margin-bottom: 5%;
+}
 .project-box{
     display: flex;
     justify-content: space-between;
@@ -172,6 +176,10 @@ padding: 0px 30px;
 .project-text{
     display: flex;
     flex-direction: column;
+    margin: 0 20px 30px 15px;
+    font-size: 17px;
+    color: #292e47;
+    font-weight: 400;
     
 }
 
@@ -183,17 +191,40 @@ padding: 0px 30px;
     font-weight: 500;
 }
 
-.project-text{
-    margin: 0 20px 30px 15px;
-    font-size: 17px;
-    color: #292e47;
-    font-weight: 400;
-}
-
 .project-link{
     margin-left: 15px;
     text-decoration: none;
     color: #072ac8;
     font-size: 17px;
     font-weight: 500;
+}
+
+.testimonial-section{
+    position: relative;
+    margin-top: 200px;
+    height: 600px;
+    
+    background-color: #292e47;
+    background-image: url(./project-assets/testimonial-section/orbit.png);
+    background-position: 0px 0px;
+    background-size: cover;
+}
+
+.profile-photo{
+    width: 50px;
+    height: 50px;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(./project-assets/testimonial-section/profile.png);
+    border-radius: 50%;
+}
+
+.memojis-container{
+    display: flex;
+    position: relative;
+}
+
+.memojis-imgs{
+    width: 10%;   
 }
