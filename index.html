@@ -6,106 +6,114 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/style.css">
     <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,regular,500,700" media="all"> -->
+
     <title>Circle Agency</title>
 </head>
 
 
 <body>
    <!-- DIV WITH NAVBAR EDITADA PARA FUNCIONAR EN VERSION MVL CON OTRA VERSION DE ESTA  -->
-      <header> 
+      <header role="banner"> 
         <!-- DIV CONTENEDOR -->
-        <div>  
-        <a href="#">Background Img(LOGO)</a>
-        <nav>
-          <a href="#">Home</a><a href="#">Projects</a><a href="#">Services</a>
-        </nav>
+      <div class="nav-container">
+        <div class="nav-logo-circle">  
+            <a class="secret" href="#"></a>
+        </div>
+          <nav>
+            <a class="nav-web-links" href="#">Home</a>
+            <a class="nav-web-links" href="#">Projects</a>
+            <a class="nav-web-links" href="#">Services</a>
+          </nav>
         <!-- BUTTON MOBILE VERSION -->
-        <div> </div>
-        <a href="/contact-us">Contact Us</a>
+        <div>
+            <a class="btn-type " href="./contact-us.html">Contact Us</a>
         <!-- DIV TRAVIESO REVISAR -->
-        <div></div>
+        </div>
       </div>
       </header>
     
     <!-- ATENCION TODAS ESTAS SECTIONS CONTIENEN UNA MISMA CLASE PARA CSS REVISAR Y VER QUE HACEN CON ESA CLASSE!!!!!!!!!!!!!!!! -->
     <!-- SECTION HERO , PRIMERA SECCION CON SU TITULO CABECERA CON SUBTITULO + 2 BOTONES // FOTO DE FONDO CON 2 FOTOS SUPERPUESTAS EN DIAGONAL  (RELATIVAS?) -->
-    <section>
+    <section class="hero-section">
       <!-- CONTAINER  -->
-      <div>
+      <div class="hero-container">
           <!-- CONTENIDO -->
-        <div>
-           <h1>Empower Your Business With Stunning Desing!</h1>
+        <div class="hero-description-container">
+           <h1 class="hero-title">Empower Your<br> Business With <br>Stunning Desing!</h1>
            <div>
-            Circle is a digital design and development studio. We desing and develop astonishing websites and mobile apps.
+            Circle is a digital design and development studio.<br> We desing and develop astonishing websites<br> and mobile apps.
            </div>
            <div>
-            <a href="#">See our work</a>
-            <a href="#">Get in touch</a>
+            <a class="hero-link" href="#">See our work</a>
+            <a class="btn-type" href="#">Get in touch</a>
            </div>
         </div>
-      </div>
-      <div>
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
+      
+            <!-- SECTION HERO IMGS -->
+        <div class="hero-imgs-container">
+            <img class="cards-img-paycard" src="./project-assets/hero-section/card-1.png" alt="paycard-img">
+            <img class="hero-img" src="./project-assets/hero-section/hero-image.png" alt="hero-class-main-img">
+            <img class="cards-img-thumb" src="./project-assets/hero-section/card-2.png" alt="project-thumb-up-img">
+        </div>
       </div>
     </section>
 
     <!-- SECTION LOGOS CONTIENE LOS LOGOS Y POR LO VISTO UN GRID PARA POSTERIORMENTE USAR FLEX BOX Y ACABAR DE PULIR -->
     <section>
       <!-- CONTAINER -->
-      <div>
+      <div class="logos-container">
           <!-- LOGOS CON GRID -->
-        <div>
+        <div class="logos-flex">
              <div>
-               <img src="" alt="">
+                <img src="./project-assets/logos/airbnb-logo.svg" alt="airbnb-logo">
              </div>
              <div>
-               <img src="" alt="">
+                <img src="./project-assets/logos/google-logo.svg" alt="google-logo">
              </div>
              <div>
-               <img src="" alt=""> 
+                <img src="./project-assets/logos/microsoft-logo.svg" alt="microsoft-logo"> 
              </div>
              <div>
-               <img src="" alt="">
+                <img src="./project-assets/logos/fedex-logo.svg" alt="fedex-logo">
              </div>
              <div>
-                <img src="" alt="">
+                <img src="./project-assets/logos/amazon-logo.svg" alt="amazon-logo">
              </div>
         </div>
       </div>
     </section>
+    
 
       <!-- SECTION PROJECTS (TIENE UN CARAJO DE MARGIN TOP EL DIV CONTENEDOR) MUCHOS DIVS PARA ENCAPSULAR FOTOS CON SU PEQUEÑO TITULO, DESCRIPCION Y LINK-REF , CUADRADO USANDO FLEX  -->
-    <section>
+    <section class="">
       <!-- CONTAINER -->
-      <div>
+      <div class="projects-container">
         <h2>Recent Projects</h2>
         <!-- LIST WRAPPER -->
-        <div>
+        <div class="project-box">
           <!-- ROLE LIST -->
-              <div>
-                  <div><img src="" alt=""></div>
-                  <div>
-                    <h3>Simplify</h3>
-                    <p>UI Design & App Development</p>
-                    <a href="">Learn More</a>
+              <div class="project-minibox">
+                  <div><img class="project-imgs" src="./project-assets/projects-section/1.jpg" alt=""></div>
+                  <div class="project-text">
+                    <h3 class="project-title">Simplify</h3>
+                    <p class="project-text">UI Design & App Development</p>
+                    <a class="project-link" href="">Learn More</a>
                   </div>
               </div>
-              <div>
-                  <div><img src="" alt=""></div>
-                  <div>
-                    <h3>Dashcoin</h3>
-                    <p>Web Development</p>
-                    <a href="">Learn More</a>
+              <div class="project-minibox">
+                  <div><img class="project-imgs" src="./project-assets/projects-section/2.jpg" alt=""></div>
+                  <div class="project-text">
+                    <h3 class="project-title">Dashcoin</h3>
+                    <p class="project-text">Web Development</p>
+                    <a class="project-link" href="">Learn More</a>
                   </div>
               </div>
-              <div>
-                  <div><img src="" alt=""></div>
-                  <div>
-                    <h3>Vectorify</h3>
-                    <p>User Experience Design</p>
-                    <a href="">Learn More</a>
+              <div class="project-minibox">
+                  <div><img class="project-img-especialita" src="./project-assets/projects-section/3.jpg" alt=""></div>
+                  <div class="project-text">
+                    <h3 class="project-title">Vectorify</h3>
+                    <p class="project-text">User Experience Design</p>
+                    <a class="project-link" href="">Learn More</a>
                   </div>
               </div>
 
@@ -119,15 +127,15 @@
           <h3>Hear What Our Clients Have to Say</h3>
           <p>"Circle helped us trhough every stage of our startup. We really enjoyed working with you."</p>
           <div>
-            <img src="" alt="">
+            <img src="./project-assets/testimonial-section/profile.png" alt="profile-img">
             <p>Kristin Watson</p>
             <p>Booking.com</p>
           </div>
         </div>
-          <div><img src="" alt=""></div>
-          <div><img src="" alt=""></div>
-          <div><img src="" alt=""></div>
-          <div><img src="" alt=""></div>
+          <div><img src="./project-assets/testimonial-section/memoji-1.png" alt="memoji-1-img"></div>
+          <div><img src="./project-assets/testimonial-section/memoji-2.png" alt="memoji-2-img"></div>
+          <div><img src="./project-assets/testimonial-section/memoji-3.png" alt="memoji-3-img"></div>
+          <div><img src="./project-assets/testimonial-section/memoji-4.png" alt="memoji-4-img"></div>
       
     </section>
 
