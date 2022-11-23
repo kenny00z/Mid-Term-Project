@@ -145,32 +145,33 @@
     </section>
 
     <!-- SECTION SERVICES (COMO NO CON UN MARGIN TOP DE COJONES) CONTIENE COMO NO UN DIV DENTRO DEL DIV SOBRE DIV EN EL DIV DEL DIV (MIRAR BIEN PORQUE LA CANTIDAD DE DIVS ES INSANA) Y UTILIZA GRID EN EL CONTENEDOR QUE ENCAPSULA LOS 3 APARTADOS DEBAJO DEL TITULO , OJO ESTA USANDO ICONOS QUE NO IMAGENES Y A PIE DE ESTOS APARTADOS UN LINK-REF -->
-    <section>
-      <div>
-        <h1>Our Services</h1>
-        <div>
-            <div>
-              <div>ICON PLUMA</div>
+    <section class="section-services-container">
+      
+      <div class="services-container">
+        <h1 class="services-main-title">Our Services</h1>
+        <div class="services-box-container">
+            <div class="services-minibox-container">
+              <div class="icon-img1"></div>
+                <div>
+                <h3 class="project-title">User Interface Design</h3>
+                <p class="project-text">Circle provides you with a stunning user interface design taht is accesible to everyone.</p>
+                <a class="testimonial-link" href="#">Learn More</a>
+                </div>
+            </div>
+            <div class="services-minibox-container">
+              <div class="icon-img2"></div>
               <div>
-                <h3>User Interface Design</h3>
-                <p>Circle provides you with a stunning user interface design taht is accesible to everyone.</p>
-                <a href="#">Learn More</a>
+                <h3 class="project-title">User Experience Design</h3>
+                <p class="project-text">Circle always focuses on delivering the best user experience yo your customers.</p>
+                <a class="testimonial-link" href="#">Learn More</a>
               </div>
             </div>
-            <div>
-              <div>ICON CLICK</div>
+            <div class="services-minibox-container">
+              <div class="icon-img3"></div>
               <div>
-                <h3>User Experience Design</h3>
-                <p>Circle always focuses on delivering the best user experience yo your customers.</p>
-                <a href="#">Learn More</a>
-              </div>
-            </div>
-            <div>
-              <div>ICON FILE</div>
-              <div>
-                <h3>Applicacion Development</h3>
-                <p>We develop high-quality mobile and web applications using the latest technology stack.</p>
-                <a href="#">Learn More</a>
+                <h3 class="project-title">Applicacion Development</h3>
+                <p class="project-text">We develop high-quality mobile and web applications using the latest technology stack.</p>
+                <a class="testimonial-link" href="#">Learn More</a>
               </div>
             </div>  
         </div>
@@ -178,18 +179,23 @@
     </section>
 
     <!-- SECTION CTA DE CONTACTO NO HABLAMOS DEL MARGIN TOP... , TITULO UN POQUITO DE FORM POR AHI CON ALGUN EVENTO YA QUE DENTRO DE LA ESTRUCTURA SE PUEDEN VER DOS POSIBLES RESPUESTAS(CORRECTA Y ERRONEA) MANIPULADO CON FLEXBOX -->
-    <section>
-        <div>
-            <h1>Do you have any question?</h1>
-            <p>Lets us help you</p>
-            <div>
+    <section class="cta-section-container">
+        <div class="cta-container">
+            <h1 class="cta-title">Do you have any question?</h1>
+            <p class="cta-text">Lets us help you!</p>
+            <div class="cta-suscribe-bar">
               <form action="">
-                <div>
+                <div class="icon-sobre">
                 <!-- ICONO SOBRE -->
+                </div >
+                <div class="email-bar-container">
+                  <div>
+                  <input role="textbox" class="email-bar" type="email" placeholder="Enter your email">
+                  </div>
+                  <div>
+                  <input class="btn-suscribe" type="submit" value="Suscribe" maxlength="256">
+                  </div>
                 </div>
-                <input type="email">
-        
-                <input type="submit">
               </form>
             </div>
           </div>
