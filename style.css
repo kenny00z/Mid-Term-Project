@@ -154,7 +154,7 @@ max-width: 1100px;
 /* PROJECTS SECTION */
 
 .projects-section{
-    margin-top: 16%;
+    margin-top: 200px;
     padding:0 30px;
 
 }
@@ -180,6 +180,7 @@ max-width: 1100px;
     font-size: 40px;
     margin-bottom: 5%;
     margin-left: 2.2%;
+    padding-left: 12px;
 }
 .project-box{
     display: flex;
@@ -538,3 +539,159 @@ background-image: url(./project-assets/services-section/icons/1.svg);
 
 
 
+
+
+/* ------CONTACT US PAGE STYLE------ */
+
+.contact-us-main{
+    margin-top: 0px;
+    padding: 0 30px;
+}
+.contact-us-container{
+    margin-top: 200px;
+    max-width: 1100px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.contact-title{
+    margin-top: 0px;
+    margin-bottom: 80px;
+    font-size: 60px;
+    line-height: 110%;
+}
+
+.contact-wrapper{
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows:auto auto auto auto auto auto ;
+}
+
+.contact-name{
+    grid-row-start: span 1;
+    grid-row-end: span 1;
+    grid-column-start: span 6;
+    grid-column-end: span 6;
+}
+
+.contact-mail{
+    grid-row-start: span 1;
+    grid-row-end: span 1;
+    grid-column-start: span 3;
+    grid-column-end: span 3;
+}
+
+.contact-phone{
+    grid-row-start: span 1;
+    grid-row-end: span 1;
+    grid-column-start: span 3;
+    grid-column-end: span 3; 
+}
+
+.contact-message{
+    grid-row-start: span 3;
+    grid-row-end: span 3;
+    grid-column-start: span 6;
+    grid-column-end: span 6;
+}
+
+.description-text{
+    color: #6b708d;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.contact-bar{
+    font-family: Roboto;
+    width: 100%;
+    height: 70px;
+    padding-left: 20px;
+    border: 1px none #000;
+    background-color: rgba(107, 112, 141, 0.1);
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #333333;
+}
+
+.contact-text-bar{
+    font-family: Roboto;
+    width: 100%;
+    height: 200px;
+    padding-left: 20px;
+    border: 1px none #000;
+    background-color: rgba(107, 112, 141, 0.1);
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #333333;
+}
+
+#contact-submit-bar{
+    grid-row-start: span 1;
+    grid-row-end: span 1;
+    grid-column-start: span 6;
+    grid-column-end: span 6;
+}
+
+.contact-submit-btn{
+    font-family: Roboto;
+    padding: 15px 30px;
+    height: 80px;
+    text-decoration: none;
+    background-color: #072ac8;
+    color: white;
+    font-size: 17px;
+}
+
+
+/* ------RECENT PROJECTS PAGE STYLE------ */
+
+
+.main-2project-container{
+    margin-top: 70px;
+    padding: 0px 30px;
+}
+
+.project-web-container{
+max-width: 1100px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.project-main-img{
+width: 100%;
+height: 444px;
+object-fit: cover;
+margin-bottom: 40px;
+}
+
+#project-web-title{
+    line-height: 0px;
+}
+.project-web-subtitle{
+    color: #6b708d;
+    font-size: 24px;
+}
+.date-brother-date{
+    font-size: 20px;
+}
+.project-date{
+    font-size: 20px;
+    color: #6b708d;
+}
+.project-web-text{
+    margin-bottom: 10px;
+}
+
+.head-text-flex{
+    display: flex;
+    justify-content: space-between;
+
+}
+.flex-date-text{
+    display: flex;
+    align-items: center;
+    align-content: center;
+}

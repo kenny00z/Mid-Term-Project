@@ -8,62 +8,77 @@
     <title>Contact Us</title>
 </head>
 <body>
+<!-- DIV WITH NAVBAR EDITADA PARA FUNCIONAR EN VERSION MVL CON OTRA VERSION DE ESTA  -->
+<header role="banner"> 
+    <!-- DIV CONTENEDOR -->
+  <div class="nav-container">
+    <div class="nav-logo-circle">  
+        <a class="secret" href="#"></a>
+    </div>
+      <nav>
+        <a class="nav-web-links" href="#">Home</a>
+        <a class="nav-web-links" href="#">Projects</a>
+        <a class="nav-web-links" href="#">Services</a>
+      </nav>
+    <!-- BUTTON MOBILE VERSION -->
+    <div>
+        <a class="btn-type " href="./contact-us.html">Contact Us</a>
+    <!-- DIV TRAVIESO REVISAR -->
+    </div>
+  </div>
+  </header>
 
-    <header> 
-        <!-- DIV CONTENEDOR -->
-        <div>  
-            <a href="#">Background Img(LOGO)</a>
-        </div>
-          <nav>
-            <a href="#">Home</a><a href="#">Projects</a><a href="#">Services</a>
-          </nav>
-        <!-- BUTTON MOBILE VERSION -->
-        <div>
-            <a href="./contact-us.html">Contact Us</a>
-        <!-- DIV TRAVIESO REVISAR -->
-        </div>
-      
-    </header>
-
-    <main>
-        <h1>Contact Us</h1>
-
-        <div>
-            <label for="name">Full Name *</label>
-            <input type="text" placeholder="Enter your full name">
-        </div>
-        <div>
-            <div>
-                <label for="name-2">Email</label>
-                <input type="email" placeholder="Enter your email">
+    <main class="contact-us-main">
+        <div class="contact-us-container">
+            <h1 class="contact-title">Contact Us</h1>
+            <form class="contact-wrapper">
+            <div class="contact-name">
+                <label class="description-text" for="name">Full Name *</label>
+                <input class="contact-bar" type="text" placeholder="Enter your full name">
+            </div> 
+            <div class="contact-mail">
+                <label class="description-text" for="name-2">Email</label>
+                <input class="contact-bar" type="email" placeholder="Enter your email">
             </div>
-            <div>
-                <label for="field">Message *</label>
-                <textarea placeholder="Write your message here..." id="field" maxlength="5000" name="field" required data-name="field"></textarea>
+            <div class="contact-phone">
+                <label class="description-text" for="name-3">Phone</label>
+                <input class="contact-bar" type="tel" maxlength="256" placeholder="Enter your phone">
             </div>
+            <div  class="contact-message">
+                <label class="description-text" for="field">Message *</label>
+                <textarea class="contact-text-bar" placeholder="Write your message here..." id="field" maxlength="5000" name="field" required data-name="field"></textarea>
+            </div>
+            <input type="submit" value="Submit" id="contact-submit-bar" class="contact-submit-btn">
+            </form>
         </div>
-
 
 
 
     </main>
     
 
-    <footer>
-        <div>
+    <!-- Y POR ULTIMO LA SECTION FOOTER CON SU LOGO CIRCLE UNOS POCOS DE A-LINKS ADRESS Y DEMAS, GRID PARA LOS A-LINKS FLEX PARA TODO LO DEMAS -->
+    <footer class="footer-section">
+        <div class="footer-container">
             <div>
-              <div>LOGO</div>
-              <address>2972 Westheimer Rd. Santa Ana, <br>Illinois 85486</address>
+              <div class="footer-logo"></div>
+              <p class="footer-adress">2972 Westheimer Rd. Santa Ana, <br>Illinois 85486</p>
             </div>
 
-            <div>
-              <a href="#">Team</a><a href="#">Services</a><a href="#">About Us</a><br>
-              <a href="#">Press</a><a href="#">Projects</a><a href="#">Privacy Policy</a>
+            <div class="footer-links-container">
+              <a class="footer-link" href="#">Team</a>
+              <a class="footer-link" href="#">Services</a>
+              <a class="footer-link" href="#">About Us</a>
+              <a class="footer-link" href="#">Press</a>
+              <a class="footer-link" href="#">Projects</a>
+              <a class="footer-link" href="#">Privacy Policy</a>
             </div>
         </div>
     </footer>
 
-        <a href="https://webflow.com?utm_campaign=brandjs"></a>
+
+    <!-- NO OLVIDAR ESTE PEQUEÑIN --- UN POCO CABRON STICKY LLEVA TODA LA PAGINA CON NOSOTROS Y SE ALOJA EN LA PARTE DERECHA INFERIOR CON UN SUTIL PADDING Y COMPUESTO POR DOS IMAGENES -->
+    <a href="https://webflow.com?utm_campaign=brandjs"></a>
 
 </body>
 </html>
