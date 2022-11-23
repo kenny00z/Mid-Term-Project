@@ -19,3 +19,7 @@ Repasar en futuro los detalles para acabar de intentar asemejar lo máximo a la 
 ---23/11/20222---
 
 -Day-3-:
+Acabados los 3 HTML's con sus respectivos estilos de CSS.
+Revisar el tema media-queries y ponerse el Jueves ya con ello a tope.
+Revisar también el tema menu hamburguesa.
+Preguntar por el tema de Json para aclararse bien que pedían y refrescarlo de cara a poder trabajarlo Jueves por la tarde-noche y rematarlo el viernes.
