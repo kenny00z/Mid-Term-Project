@@ -42,7 +42,16 @@ header {
   background-repeat: no-repeat;
   background-size: contain;
 }
-
+.web-links-list {
+  list-style: none;
+  display: flex;
+}
+#burger-menu {
+  display: none;
+}
+.burger-menu {
+  display: none;
+}
 .nav-web-links {
   display: inline-block;
   text-decoration: none;
@@ -173,7 +182,7 @@ h1 {
 .project-section-title {
   font-size: 40px;
   margin-bottom: 5%;
-  margin-left: 2.2%;
+  margin-left: 3.5%;
   padding-left: 12px;
 }
 .project-box {
@@ -519,8 +528,10 @@ h1 {
   text-decoration: none;
 }
 
-/* ACORDARSE DEL PEQUEÑIN STICKY MADE IN WEBFLOW */
+/* ACORDARSE DEL PEQUEÑIN SI DA TIEMPO STICKY MADE IN WEBFLOW */
 
+/* ------CONTACT US PAGE STYLE------ */
+/* ------CONTACT US PAGE STYLE------ */
 /* ------CONTACT US PAGE STYLE------ */
 
 .contact-us-main {
@@ -623,8 +634,11 @@ h1 {
   background-color: #072ac8;
   color: white;
   font-size: 17px;
+  border: none;
 }
 
+/* ------RECENT PROJECTS PAGE STYLE------ */
+/* ------RECENT PROJECTS PAGE STYLE------ */
 /* ------RECENT PROJECTS PAGE STYLE------ */
 
 .main-2project-container {
@@ -675,12 +689,24 @@ h1 {
 }
 
 /* MEDIA QUERY MBL */
+/* MEDIA QUERY MBL */
+/* MEDIA QUERY MBL */
+/* MEDIA QUERY MBL */
+/* MEDIA QUERY MBL */
 
 @media (max-width: 767px) {
   body {
-    background-color: rgb(219, 217, 217);
+    margin: 0;
+    background-color: #f2f4fc;
   }
 
+  header {
+    margin: 0;
+  }
+
+  .hero-section {
+    padding: 0 30px 0 30px;
+  }
   .nav-container {
     height: 60px;
     max-width: 1100px;
@@ -691,26 +717,145 @@ h1 {
     align-items: center;
   }
 
-  .hero-title {
-    display: block;
-    font-size: 55px;
-    color: #292e47;
-    line-height: 130%;
-  }
-  .logos-flex {
+  /* HERO SECTION */
+
+  .hero-container {
+    max-width: none;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
     flex-direction: column;
   }
 
-  .services-box-container {
-    margin-top: 40px;
+  .hero-title {
+    font-size: 30px;
+    text-align: center;
+  }
+  .hero-link {
+    margin-right: 0;
+  }
+
+  .hero-description-container div {
+    font-size: 17px;
+    text-align: center;
+  }
+
+  .get-in-touch {
     display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .btn-type {
+    padding: 0;
+    width: 50%;
+  }
+  .hero-img {
+    width: 80vw;
+  }
+
+  /* LOGOS SECTION */
+
+  .logos-container {
+    padding: 0;
+    margin-top: 18%;
+  }
+
+  .logos-flex {
+    display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    gap: 50px;
+    margin: 0px 15px;
+    row-gap: 80px;
+    column-gap: 20px;
+  }
+
+  .cards-img-paycard {
+    display: none;
+  }
+  .cards-img-thumb {
+    display: none;
+  }
+
+  .poor-amazon {
+    display: none;
+  }
+
+  /* PROJECTS SECTION */
+
+  .project-box {
+    display: flex;
+    justify-content: space-evenly;
     flex-direction: column;
   }
+
+  .projects-section {
+    margin-top: 60px;
+  }
+
+  .project-section-title {
+    font-size: 30px;
+    margin-bottom: 10%;
+  }
+
+  .project-minibox {
+    max-width: none;
+  }
+
+  /* TESTIMONIAL SECTION */
+
+  .testimonial-section {
+    margin-top: 20%;
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .testimonial-title {
+    font-size: 30px;
+  }
+  .testimonial-text {
+    margin-top: 0;
+  }
+
+  #memoji-1 {
+    display: none;
+  }
+  #memoji-2 {
+    display: none;
+  }
+  #memoji-3 {
+    display: none;
+  }
+  #memoji-4 {
+    display: none;
+  }
+
+  /* SERVICES SECTION */
+  .section-services-container {
+    margin-top: 13%;
+  }
+  .services-main-title {
+    margin-bottom: 0;
+  }
+  .services-box-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-direction: column;
+  }
+  .icon-img1 {
+    width: 80px;
+    height: 80px;
+  }
+  .icon-img2 {
+    width: 80px;
+    height: 80px;
+  }
+  .icon-img3 {
+    width: 80px;
+    height: 80px;
+  }
+
+  /* CTA SECTION */
 
   .cta-section-container {
     margin-top: 60px;
@@ -764,5 +909,98 @@ h1 {
     background-size: auto;
     left: 4%;
     bottom: 63%;
+  }
+
+  /* FOOTER SECTION */
+
+  .footer-section {
+    margin-top: 17%;
+  }
+  .footer-logo {
+    margin-left: 30%;
+  }
+  .footer-adress {
+    text-align: center;
+  }
+
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* ------CONTACT US PAGE STYLE------ */
+
+  .contact-us-container {
+    margin-top: 0;
+  }
+  .contact-title {
+    margin-bottom: 40px;
+    font-size: 40px;
+  }
+
+  .contact-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* ------RECENT PROJECTS PAGE STYLE------ */
+
+  .project-web-title {
+    font-size: 40px;
+  }
+  .head-text-flex {
+    flex-direction: column;
+  }
+  .project-web-subtitle {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .date-brother-date {
+    margin-top: 0;
+  }
+  .project-date {
+    margin-top: 0;
+  }
+  .project-main-img {
+    margin-top: 12px;
+  }
+
+  /* PUÑETERO MENU HAMBURGUESA */
+  .nav-container {
+    justify-content: space-between;
+    padding: 0 30px;
+  }
+  #contact-us-btn {
+    display: none;
+  }
+  .burger-menu-container {
+    display: flex;
+  }
+  #burger-menu {
+    display: none;
+  }
+  .burger-menu {
+    display: block;
+    z-index: 0;
+    font-weight: bold;
+  }
+  .web-links-list {
+    display: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 8%;
+    left: 64%;
+    /* IZQ top 10 left 9 */
+    background-color: #c8c8c8;
+  }
+  .nav-web-links {
+    max-width: 100%;
+    padding: 10px;
+    margin-top: 0;
+  }
+
+  input:checked ~ ul {
+    display: block;
   }
 }

@@ -9,7 +9,9 @@
 
     <title>Circle Agency</title>
 </head>
-
+            <!-- <a class="nav-web-links" href="#">Home</a>
+            <a class="nav-web-links" href="#">Projects</a>
+            <a class="nav-web-links" href="#">Services</a> -->
 
 <body>
    <!-- DIV WITH NAVBAR EDITADA PARA FUNCIONAR EN VERSION MVL CON OTRA VERSION DE ESTA  -->
@@ -17,15 +19,19 @@
         <!-- DIV CONTENEDOR -->
       <div class="nav-container">
         <div class="nav-logo-circle">  
-            <a class="secret" href="#"></a>
+            
         </div>
-          <nav>
-            <a class="nav-web-links" href="#">Home</a>
-            <a class="nav-web-links" href="#">Projects</a>
-            <a class="nav-web-links" href="#">Services</a>
+          <nav class="burger-menu-container">
+            <input type="checkbox" id="burger-menu">
+            <label class="burger-menu" for="burger-menu">☰</label>
+            <ul class="web-links-list">
+            <li><a class="nav-web-links" href="#">Home</a></li>
+            <li><a class="nav-web-links" href="#">Projects</a></li>
+            <li><a class="nav-web-links" href="#">Services</a></li>
+            </ul>
           </nav>
         <!-- BUTTON MOBILE VERSION -->
-        <div>
+        <div id="contact-us-btn">
             <a class="btn-type " href="./contact-us.html">Contact Us</a>
         <!-- DIV TRAVIESO REVISAR -->
         </div>
@@ -41,9 +47,9 @@
         <div class="hero-description-container">
            <h1 class="hero-title">Empower Your<br> Business With <br>Stunning Desing!</h1>
            <div>
-            Circle is a digital design and development studio.<br> We desing and develop astonishing websites<br> and mobile apps.
+            Circle is a digital design and development studio. We desing and develop astonishing websites and mobile apps.
            </div>
-           <div>
+           <div class="get-in-touch">
             <a class="hero-link" href="#">See our work</a>
             <a class="btn-type" href="#">Get in touch</a>
            </div>
@@ -76,8 +82,8 @@
              <div>
                 <img src="./project-assets/logos/fedex-logo.svg" alt="fedex-logo">
              </div>
-             <div>
-                <img src="./project-assets/logos/amazon-logo.svg" alt="amazon-logo">
+             <div class="poor-amazon">
+                <img  src="./project-assets/logos/amazon-logo.svg" alt="amazon-logo">
              </div>
         </div>
       </div>
@@ -155,7 +161,7 @@
               <div class="icon-img1"></div>
                 <div>
                 <h3 class="project-title">User Interface Design</h3>
-                <p class="project-text">Circle provides you with a stunning user interface design taht is accesible to everyone.</p>
+                <p class="project-text">Circle provides you with a stunning user interface design that is accesible to everyone.</p>
                 <a class="testimonial-link" href="#">Learn More</a>
                 </div>
             </div>
