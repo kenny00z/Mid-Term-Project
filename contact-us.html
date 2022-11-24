@@ -34,19 +34,19 @@
             <form class="contact-wrapper">
             <div class="contact-name">
                 <label class="description-text" for="name">Full Name *</label>
-                <input class="contact-bar" type="text" placeholder="Enter your full name">
+                <input id="name-input" class="contact-bar" type="text" placeholder="Enter your full name">
             </div> 
             <div class="contact-mail">
                 <label class="description-text" for="name-2">Email</label>
-                <input class="contact-bar" type="email" placeholder="Enter your email">
+                <input id="mail-input" class="contact-bar" type="email" placeholder="Enter your email">
             </div>
             <div class="contact-phone">
                 <label class="description-text" for="name-3">Phone</label>
-                <input class="contact-bar" type="tel" maxlength="256" placeholder="Enter your phone">
+                <input id="phone-input" class="contact-bar" type="tel" maxlength="256" placeholder="Enter your phone">
             </div>
             <div  class="contact-message">
                 <label class="description-text" for="field">Message *</label>
-                <textarea class="contact-text-bar" placeholder="Write your message here..." id="field" maxlength="5000" name="field" required data-name="field"></textarea>
+                <textarea id="text-input" class="contact-text-bar" placeholder="Write your message here..." id="field" maxlength="5000" name="field" required data-name="field"></textarea>
             </div>
             <input type="submit" value="Submit" id="contact-submit-bar" class="contact-submit-btn">
             </form>
@@ -79,6 +79,7 @@
 
     <!-- NO OLVIDAR ESTE PEQUEÑIN --- UN POCO CABRON STICKY LLEVA TODA LA PAGINA CON NOSOTROS Y SE ALOJA EN LA PARTE DERECHA INFERIOR CON UN SUTIL PADDING Y COMPUESTO POR DOS IMAGENES -->
     <a href="https://webflow.com?utm_campaign=brandjs"></a>
+    <script src="./index.js"></script>
 
 </body>
 </html>
