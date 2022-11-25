@@ -36,6 +36,7 @@ Preparar la presentación mañana despues de repasar el contenido de todo limpia
 
 -Day-5-:
 Last updates to the proyect.
-Fixed little things of styling, fixed some html and clean the unnecessary comments.
-
-Working on Demo.
+Fixed little things of styling, fixed some html and clean the unnecessary comments , added Js sections, linked and cleaned to all necessary files.
+Last hot fixes added.
+Slides presentation finished.
+Die :)
