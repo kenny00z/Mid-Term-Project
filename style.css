@@ -36,6 +36,7 @@ header {
 }
 
 .nav-logo-circle {
+  display: inline-block;
   width: 60px;
   height: 18px;
   background-image: url(./project-assets/logos/circle.svg);
@@ -67,13 +68,14 @@ header {
   background-color: #072ac8;
   color: white;
 }
-/* .contact-btn{
-    display: inline-block;
-    cursor: pointer;
-    line-height: inherit;
-    border: 0;
-} */
 
+.btn-type:hover {
+  background-color: #292e47;
+}
+
+#current-page {
+  color: #0082f3;
+}
 /* HERO SECTION */
 
 .hero-section {
@@ -104,6 +106,7 @@ header {
 }
 
 .hero-description-container div {
+  max-width: 435px;
   text-align: left;
   font-size: 19px;
   color: #6b708d;
@@ -465,6 +468,9 @@ h1 {
   font-family: Roboto;
   cursor: pointer;
 }
+.btn-suscribe:hover {
+  background-color: #292e47;
+}
 .email-bar {
   width: 393px;
   height: 80px;
@@ -659,9 +665,6 @@ h1 {
   margin-bottom: 40px;
 }
 
-#project-web-title {
-  line-height: 0px;
-}
 .project-web-subtitle {
   color: #6b708d;
   font-size: 24px;
@@ -745,7 +748,12 @@ h1 {
   }
   .btn-type {
     padding: 0;
-    width: 50%;
+    width: 45vw;
+    height: 15vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 14px;
   }
   .hero-img {
     width: 80vw;
@@ -796,7 +804,8 @@ h1 {
   }
 
   .project-minibox {
-    max-width: none;
+    max-width: 100vw;
+    margin-bottom: 20px;
   }
 
   /* TESTIMONIAL SECTION */
@@ -985,14 +994,18 @@ h1 {
     font-weight: bold;
   }
   .web-links-list {
+    width: 100vw;
     display: none;
     margin: 0;
     padding: 0;
     position: absolute;
-    top: 8%;
-    left: 64%;
+    top: 10%;
+    left: 0%;
     /* IZQ top 10 left 9 */
     background-color: #c8c8c8;
+  }
+  #current-page {
+    color: #6b708d;
   }
   .nav-web-links {
     max-width: 100%;

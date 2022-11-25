@@ -11,18 +11,18 @@
 
 <body>
     
-    <!-- DIV WITH NAVBAR EDITADA PARA FUNCIONAR EN VERSION MVL CON OTRA VERSION DE ESTA  -->
+    <!-- HEADER-NAVBAR -->
     <header role="banner"> 
         <!-- DIV CONTENEDOR -->
       <div class="nav-container">
-        <div class="nav-logo-circle">  
-            <a class="secret" href="#"></a>
-        </div>
+        <a class="nav-logo-circle" href="#"></a>
+        
         <nav class="burger-menu-container">
           <input type="checkbox" id="burger-menu">
           <label class="burger-menu" for="burger-menu">☰</label>
           <ul class="web-links-list">
-          <li><a class="nav-web-links" href="#">Home</a></li>
+          <li><a 
+            class="nav-web-links" href="#">Home</a></li>
           <li><a class="nav-web-links" href="#">Projects</a></li>
           <li><a class="nav-web-links" href="#">Services</a></li>
           </ul>
@@ -36,7 +36,7 @@
       </header>
 
       <main class="main-2project-container">
-        <div class="project-web-container">
+        <div id="project-web-container" class="project-web-container">
             <h1 class="project-web-title" id="project-web-title">Simplify</h1>
             <div class="head-text-flex">
                 <p class="project-web-subtitle">UI Design & App Development</p>
@@ -55,7 +55,7 @@
         </div>
       </main>
 
-      <!-- SECTION PROJECTS (TIENE UN CARAJO DE MARGIN TOP EL DIV CONTENEDOR) MUCHOS DIVS PARA ENCAPSULAR FOTOS CON SU PEQUEÑO TITULO, DESCRIPCION Y LINK-REF , CUADRADO USANDO FLEX  -->
+      <!-- SECTION PROJECTS -->
     <section class="projects-section">
         <!-- CONTAINER -->
         <div class="projects-container">
@@ -115,7 +115,7 @@
           </div>
     </section>
 
-      <!-- Y POR ULTIMO LA SECTION FOOTER CON SU LOGO CIRCLE UNOS POCOS DE A-LINKS ADRESS Y DEMAS, GRID PARA LOS A-LINKS FLEX PARA TODO LO DEMAS -->
+      <!-- FOOTER SECTION -->
     <footer class="footer-section">
         <div class="footer-container">
             <div>
@@ -135,10 +135,8 @@
     </footer>
 
 
-    <!-- NO OLVIDAR ESTE PEQUEÑIN --- UN POCO CABRON STICKY LLEVA TODA LA PAGINA CON NOSOTROS Y SE ALOJA EN LA PARTE DERECHA INFERIOR CON UN SUTIL PADDING Y COMPUESTO POR DOS IMAGENES -->
-    <a href="https://webflow.com?utm_campaign=brandjs"></a>
-
     <script src="./index.js"></script>
+    <script src="./index2.js"></script>
 
 </body>
 </html>

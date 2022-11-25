@@ -24,10 +24,14 @@ Revisar el tema media-queries y ponerse el Jueves ya con ello a tope.
 Revisar también el tema menu hamburguesa.
 Preguntar por el tema de Json para aclararse bien que pedían y refrescarlo de cara a poder trabajarlo Jueves por la tarde-noche y rematarlo el viernes.
 
----25/11/2022---
+---24/11/2022---
 
 -Day-4-:
 Acabados los queries para mbl-version.
 Prácticamente acabado todo el apartado Js falta solo hacer un fetch al titulo y a los 2 textos de la web de Projects.
 Acabado el menu hamburguesa aún no con el mejor resultado...
 Preparar la presentación mañana despues de repasar el contenido de todo limpiando notas innecesarias y pequeños detalles que se puedan despachar rápido.
+
+---25/11/2022---
+
+-Day-5-:
