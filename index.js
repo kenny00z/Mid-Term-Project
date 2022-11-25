@@ -17,7 +17,7 @@ const apiJsonInfo = () => {
             <div class="project-text">
               <h3 class="project-title">${post.title}</h3>
               <p class="project-text">${post.body}</p>
-              <a class="project-link" href="">Learn More</a>
+              <a class="project-link" href="./recent-projects.html">Learn More</a>
             </div>
         </div>`;
       });

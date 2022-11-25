@@ -35,3 +35,7 @@ Preparar la presentación mañana despues de repasar el contenido de todo limpia
 ---25/11/2022---
 
 -Day-5-:
+Last updates to the proyect.
+Fixed little things of styling, fixed some html and clean the unnecessary comments.
+
+Working on Demo.
